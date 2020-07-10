@@ -1,11 +1,12 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
     <meta charset="utf-8">
     <title>cafe</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" media="(max-width:670px)"href="style-480.css">
+    
 </head>
 <body>
     <div class="container">
@@ -18,7 +19,7 @@
             </ul>   
             <div class="top-logo">
                 <p class="minato">MINATO</p>
-                <p class="cafe"><span class="open">open.</span>CAFE</p>
+                <p class="cafe"><span class="open"><img src="open-logo.png"></span>CAFE</p>
             </div>
         </header>   
     </div>
@@ -32,80 +33,82 @@
             </div>
                 <img src="camome.png"class="camome-img1">
                 <img src="camome.png"class="camome-img2">
-            <div class="menu-wrapper">
-                <div class="menu"><a href="#mainmenu-wrapper"class="menu-a">Menu</a></div>
-                <div class="application"><a href="#application-wrapper"class="application-a">Application</a></div>
-                <div class="access"><a href="#access-wrapper"class="access-a">Access</a></div>
+            <ul class="menu-wrapper">
+                <li class="menu"><a href="#mainmenu-wrapper"class="menu-a">Menu</a></li>
+                <li class="application"><a href="#application-wrapper"class="application-a">Application</a></li>
+                <li class="access"><a href="#access-wrapper"class="access-a">Access</a></li>
             </div> 
         </div>
     </div>
     <div class="container">
             <div id="mainmenu-wrapper">
                 <p class="menu-logo">Menu</p>
-                <uL>
-                    <li><a href="#"><img src="morning.png"width="300"hight="300"class="morning-img"></a></li>
-                    <li><a href="#"><img src="lunch.png"width="300"hight="300"class="lunch-img"></a></li>
-                    <li><a href="#"><img src="dinner.png"width="300"hight="300"class="dinner-img"></a></li> 
+                <uL class="menu-list">
+                    <li><a href="#"><img src="morning.png"class="morning-img"></a></li>
+                    <li><a href="#"><img src="lunch.png"class="lunch-img"></a></li>
+                    <li><a href="#"><img src="dinner.png"class="dinner-img"></a></li> 
                 </uL>
             </div>
-        
-        
     </div>
     <div class="container">
         <div class="price-wrapper">
             <div class="menu-price-wrapper">
-                <p class="morning">morning<span class="price">￥800~</span></p>
-                
+                <img src="morning-logo.png" class="title">
+                <p class="price">￥800~</p>
             </div>
             <div class="menu-price-wrapper">
-                <p class="morning">lunch<span class="price">￥1200~</span></p>
-                
+                <img src="lunch-logo.png" class="title">
+                <p class="price">￥1200~</p>
             </div>    
             <div class="menu-price-wrapper">
-                <p class="morning">dinner <span class="price">￥1200~</span></p>
+                <img src="dinner-logo.png" class="title">
+                <p class="price">￥1200~</p>
             </div>
         </div>             
     </div> 
     <div class="container">
         <div id="application-wrapper">
             <p class="app">Application</p>
-            <ul>
+            <ul class="app-list">
                 <li class="curpon">みなとカフェ専用アプリで<br>
                 クーポンや限定サービスを。<br>
                 iPhone/iPad/Android</li>
-                <li><img src="coffee.png"width="120"height="220"class="coffee"></li>
-                
+                <li><img src="coffee.png"class="coffee"></li>
             </ul> 
-                 <a href="#" class="DL">初回ダウンロードでコーヒー<span class="off">10%</span>OFF</a>
+                 <a href="#" class="DL">初回ダウンロードでコーヒー<span><img src="off.png" class="off"></span>off</a>
         </div>
     </div>        
     <div class="container">
-        <p class="access-logo">Access</p>
         <div id="access-wrapper">
-            <div class="map">
-                <img src="map.png"width="633"height="396">
-            </div>
-            <ul>
-                <li class="time"><span><img src="time.png"width="15"height="15"></span> 営業時間10：00～21：00 年中無休</li>
-                <li class="access-map"><span><img src="access.png"width="15"height="15"></span> 〇〇〇-〇〇〇〇</li>
-                <li class="access-map2">神奈川県港区みなと〇-〇-〇</li>
-                <li class="tell"><span><img src="tell.png"width="18"height="18"></span> 〇〇〇〇-〇〇〇-〇〇〇</li>
-                <li><a href="#"class="mail"><span><img src="mail.png"width="15"height="15"></span> お問い合わせ</a></li> 
-                <li><p class="minato-logo">MINATO</p></li>
-                <li><p class="cafe-logo"><span class="open-logo">open.</span>CAFE</p></li>
-            </ul>
+            <p class="access-logo">Access</p>
+            <div class="background-box">
+                <div class="map">
+                    <img src="map.png"width="633"height="396">
+                
+                     <ul class="map-list">
+                        <li class="time"><span><img src="time.png"></span> 営業時間10：00～21：00 年中無休</li>
+                        <li class="access-map"><span><img src="access.png"></span> 〇〇〇-〇〇〇〇</li>
+                        <li class="access-map2">神奈川県港区みなと〇-〇-〇</li>
+                        <li class="tell"><span><img src="tell.png"></span> 〇〇〇〇-〇〇〇-〇〇〇</li>
+                        <li><a href="#"class="mail"><span><img src="mail.png"></span> お問い合わせ</a></li> 
+                        <li><p class="minato-logo">MINATO</p></li>
+                        <li><p class="cafe-logo"><span><img src="open-logo.png"class="open-logo"></span>CAFE</p></li>
+                    </ul>
+                </div>
+            </div>    
         </div> 
     </div>
     <div class="container">
         <footer>
             <ul class="sns-wrapper">
-                <li><a href="#" class="twitter2"><img src="twitter2.png"width="30"height="30"></a></il>
-                <li><a href="#" class="facebook2"><img src="facebook2.png"width="30"height="30"></a></li>
-                <li><a href="#"class="instagram2"><img src="instagram2.png"width="30"height="30"></a></li>   
+                <li><a href="#" class="twitter2"><img src="twitter2.png"></a></li>
+                <li><a href="#" class="facebook2"><img src="facebook2.png"></a></li>
+                <li><a href="#"class="instagram2"><img src="instagram2.png"></a></li>   
             </ul>   
         </footer>
 
     </div>
+
 
 </body>
 </html>
