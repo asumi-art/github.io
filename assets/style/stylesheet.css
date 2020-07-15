@@ -136,7 +136,7 @@ header{
 .border-box p{
     font-size:20px;
     writing-mode:vertical-rl;
-    font-family:Yu Mincho;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
     margin-right:auto;
     margin-left:auto;
     margin-top:70px;
@@ -365,7 +365,7 @@ header{
 
 .app{
     font-size: 30px;
-    font-family:Yu Mincho;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
     color:#0C0C3F;
     letter-spacing: 0.1em;
     text-align: center;
@@ -382,7 +382,7 @@ header{
 
 .DL{
     font-size:15px;
-    font-family:Yu Mincho;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
     letter-spacing: 0.2em;
     width:400px;
     height:50px;
@@ -412,7 +412,7 @@ header{
 .curpon{
     font-size: 15px;
     padding-top:80px;
-    font-family: Yu Mincho;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
     line-height:3;
     letter-spacing: 0.2em;
 }
@@ -432,7 +432,7 @@ header{
 }
 
 .access-logo{
-    font-family:Yu Mincho;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
     font-size:30px;
     color: #0C0C3F;
     text-align: center;
