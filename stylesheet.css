@@ -1,3 +1,4 @@
+
 *{
     margin:0px;
     padding:0px;
@@ -12,19 +13,19 @@
 header{
     height:150px;
     width:100%;
-    color:#0C0C3F;
+    color:white;
     display:flex;
     align-items:flex-start;
     flex-direction:row-reverse;
     justify-content:space-between;
     box-sizing: border-box;
     background-color:white;
-    margin-top:30px;
+
 }
 
 .right-header{
     width:400px;
-    padding:5px 5px 40px 0;
+    padding:5px 50px 40px 0;
     display:flex;
     align-items:center;
     flex-direction:row-reverse;
@@ -32,7 +33,7 @@ header{
 
 .right-header li{
     list-style: none;
-    padding:0px 20px;
+    padding:50px 20px;
     
 }
 
@@ -46,20 +47,25 @@ header{
     font-family: Javanese Text;
     display:inline-block;
     text-decoration:none;
-    color: #0C0C3F;
+    color: rgb(64,34,15);
     letter-spacing: 0.2em;
 }
 
 .top-logo{
     justify-content:center;  
     box-sizing: border-box;
+    background-color:#60b3da71;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:80px;
 }
 
 .minato{
+    
     font-family: Acier BAT Text Outline;
     font-size:40px;
     line-height:0.5;
-    padding-left:40px;
+    padding-left:100px;
 }
 
 .cafe{
@@ -71,7 +77,7 @@ header{
 }
 
 .open{
-    padding-left: 10px;
+    padding-left: 50px;
     padding-right:10px;
     display: inline-block;
     vertical-align: middle;
@@ -80,8 +86,8 @@ header{
 
 .top-wrapper{
     width:100%;
-    height:800px;
-    padding:50px 50px 0 30px;
+    height:1100px;
+    padding:120px 50px 0px 30px;
     display:flex;
     flex-direction: row-reverse;
     box-sizing: border-box;
@@ -93,26 +99,27 @@ header{
 }
 
 
-
-
 .main-img{
     width:760px;
     height:495px;
+    padding-top:20px;
     z-index:2;
 }
 
+
+
 .border-box{
-    width:290px;
-    height:400px;
+    width:400px;
+    height:500px;
     border:1px solid rgb(64,34,15);
     position:relative;
-    top:200px;
-    left:20px;
+    top:300px;
+    left:25px;
     z-index:3;
 }
 
 .border-box p{
-    font-size:22px;
+    font-size:20px;
     writing-mode:vertical-rl;
     font-family: HGP教科書体;
     margin-right:auto;
@@ -123,15 +130,30 @@ header{
     color:rgb(64,34,15);
     opacity: 0.7;
     font-weight:bold;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.8em;
+}
+
+.umi{
+    font-size:26px;
+   
+}
+
+.cafe-text{
+    font-size:26px;
+}
+
+.open-text{
+    font-size:26px;
 }
 
 .menu-wrapper{
     width:290px;
     height:100px;
     position: absolute;
-    top:20px;
-    left:10px;
+    top:120px;
+    left:50px;
+    list-style: none;
+    box-sizing: border-box;
 }   
 
 
@@ -143,13 +165,8 @@ header{
     display:block;
     text-align:right;
     letter-spacing: 0.2em;
-}
-
-  
-
-.menu-wrapper{
-    list-style: none;
-    box-sizing: border-box;
+    position: relative;
+   
 }
 
 
@@ -157,7 +174,8 @@ header{
     width:80px;
     height:30px; 
     padding-top:20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
     position:relative;
 }
 
@@ -167,7 +185,7 @@ header{
     content: '';
     display: block;
     height: 1px;
-    left: 0;
+    left: 10px;
     position: absolute;
     transition: .5s all;
     width: 0;
@@ -182,7 +200,8 @@ header{
     width:220px;
     height:30px;
     padding-top:10px;
-    padding-bottom:20px;
+    padding-bottom:10px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -192,7 +211,7 @@ header{
     content: '';
     display: block;
     height: 1px;
-    left: 0;
+    left: 10px;
     position: absolute;
     transition: .5s all;
     width: 0;
@@ -207,7 +226,8 @@ header{
     width:290px;
     height:30px; 
     padding-top:10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
     position: absolute;  
 }
 
@@ -217,7 +237,7 @@ header{
     content: '';
     display: block;
     height: 1px;
-    left: 0;
+    left: 10px;
     position: absolute;
     transition: .5s all;
     width: 0;
@@ -232,8 +252,8 @@ header{
     width:117px;
     height:51px;
     position: absolute;
-    top:600px;
-    right:80px;
+    top:700px;
+    right:150px;
     transform: rotate(10deg);
 }
 
@@ -242,13 +262,22 @@ header{
     width:91px;
     height:24px;
     position: absolute;
-    top:700px;
-    right:30px;
+    top:800px;
+    right:80px;
 }
 
 
+
+.ship-img{
+    width:350px;
+    height:250px;
+    position: absolute;
+    top:720px;
+    right:520px;
+}
+
 .mainmenu-wrapper{
-    padding-top:10px;
+    padding:10px 50px 50px 0;
     box-sizing: border-box;
     width:100%;
     height:200px;
@@ -271,65 +300,76 @@ header{
     display:flex;
     justify-content:space-around;
     list-style: none;
+    text-align: center;
+   
 }
+
+.menu-list li{
+    align-items: center;
+
+}
+
 
 
 .morning-img{
     width:300px;
-    height:300x;
-    
+    height:300px;
+    opacity:0.7;
 }
 
 .morning-img:hover{
-    opacity:0.5;
+    opacity:1;
 }
 
 .lunch-img{
     width:300px;
     height:300px;
+    opacity:0.7;
 }
 
 .lunch-img:hover{
-    opacity:0.5;
+    opacity:1;
 }
 
 .dinner-img{
     width:300px;
     height:300px;
+    opacity:0.7;
 }
 
 .dinner-img:hover{
-    opacity:0.5;
+    opacity:1;
 }
 
+
+
+.morning{
+    transform: rotate(-20deg); 
+    padding-top:50px;
+    
+}
+
+.lunch{
+    transform: rotate(-20deg); 
+    padding-top:30px;
+    
+}
+
+.dinner{
+    transform: rotate(-20deg); 
+    padding-top:20px;
+    
+}
 
 .price-wrapper{
-    display:flex;
+    list-style: none;
+    display: flex;
     justify-content: space-around;
-    text-align: center;
-}
-
-
-
-.title{
-    width:200px;
-    height:130px;
-    padding-top: 20px;
-    padding-bottom:20px;
-    padding-right:80px;
-    display:flex;
-    justify-content:space-around;
-    transform: rotate(-20deg);
-}
-
-.price{
     font-size: 20px;
     font-family:Javanese Text;
-    padding-left:130px;
-    padding-bottom:200px;
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
-
-
 
 .app{
     font-size: 30px;
@@ -337,7 +377,7 @@ header{
     color:#0C0C3F;
     letter-spacing: 0.1em;
     text-align: center;
-    padding-top: 40px;
+    padding-top:10px;
 }
 
 .app-list{
@@ -405,7 +445,7 @@ header{
     color: #0C0C3F;
     text-align: center;
     letter-spacing: 0.1em;
-    
+    padding-top:10px;
 }
 
 
@@ -413,27 +453,27 @@ header{
     list-style: none;
     padding-left:50px;
     padding-top: 30px;
-    font-family: HGPｺﾞｼｯｸM;
-    font-size: 12px;
-    font-weight: bold;
+    font-family: A-OTF 中ゴシックBBB Pr6N Med;
+    font-size: 13px;
     color:rgb(64,34,15);
 }
 
 .map{
-    padding-left:20px;
+    padding-left:50px;
     padding-top:20px;
     display:flex;
 }
 
 .time{
     padding-top:50px;
-    padding-bottom:20px;
+    padding-bottom:10px;
     letter-spacing: 0.2em;
 }
 
 .time img{
     width:15px;
     height:15px;
+    vertical-align: middle;
 }
 .access-map{
     letter-spacing: 0.2em;
@@ -445,22 +485,24 @@ header{
 .access-map img{
     width:15px;
     height:15px;
+    vertical-align: middle;
 }
 
 .access-map2{
-    padding-left:15px;
+    padding-left:20px;
     padding-bottom: 20px;
     letter-spacing: 0.2em;
 
 }
 
 .tell{
-    padding-top:20px;
+    padding-top:10px;
 }
 
 .tell img{
     width:18px;
     height:18px;
+    vertical-align: middle;
 }
 
 .mail{
@@ -473,6 +515,7 @@ header{
 .mail img{
     width:15px;
     height:15px;
+    vertical-align: middle;
 }
 
 
@@ -480,9 +523,9 @@ header{
     padding-top:40px;
     font-family:Acier BAT Text Outline ;
     font-size:30px;
-    padding-left:250px;
+    padding-left:200px;
     line-height: 0.1em;
-    color:#0C0C3F;
+    color:rgb(64,34,15);
 }
 
 
@@ -490,13 +533,14 @@ header{
     width:80px;
     height:80px;
     vertical-align: middle;
-    padding-left:200px;
+    padding-left:160px;
 }
 
 .cafe-logo{
     font-size:50px;
     font-family:Javanese Text ;
-    color:#0C0C3F;
+    color:rgb(64,34,15);
+    padding-right:50px;
 }
 
 
@@ -514,21 +558,21 @@ footer{
 
 .twitter2 img{
     display: inline-block;
-    padding-left:20px;
+    padding-left:50px;
     width:30px;
     height:30px;
 }
 
 .facebook2 img{
     display: inline-block;
-    padding-left:20px;
+    padding-left:40px;
     width:30px;
     height:30px;
 }
 
 .instagram2 img{
     display: inline-block;
-    padding-left:20px;
+    padding-left:40px;
     width:30px;
     height:30px;
 }
