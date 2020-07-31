@@ -67,7 +67,7 @@ header{
 
 
 
-.top-logo{ 
+.top-logo2{ 
     box-sizing: border-box;
     padding-top:20px;
     padding-right:50px;
@@ -75,9 +75,7 @@ header{
     
 }
 
-.top-logo2{
-    display:none;
-}
+
 
 /* トップのデザイン */
 .top-wrapper{
