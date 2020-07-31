@@ -1,12 +1,12 @@
 /* モバイル向けレイアウト */
-@media (max-width: 480px) {
+@media(max-width: 480px) {
     .container{
         width:100%;
     }
 
 
     header{
-        height:120px;
+        height:170px;
         width:100%;
     }
 
@@ -122,12 +122,6 @@
        padding-bottom: 150px;
    }
 
-   .DL{
-      width:100%; 
-      margin-right:20px;
-      margin-left:20px;
-    }
-    
    .coffee{
     padding-left:30px;
 }
@@ -141,7 +135,7 @@
 
 .map-img{
     width:100%;
-    height:250px;
+    height:300px;
 }
 
 .map-list{
@@ -161,11 +155,24 @@
 .access-background{
     width:100%;
     height:500px;
+    margin-bottom:0px;
+}
+
+
+footer{
+    height:30px;
+    background-color: rgb(183,166,143,0.1);
 }
 
 .under-logo{
-    float:right;
+    display:none;
    
+}
+
+.sns-wrapper{
+    float:right;
+    padding-top:0px;
+    padding-right:20px;
 }
 
 
