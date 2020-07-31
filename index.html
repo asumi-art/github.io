@@ -2,35 +2,40 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>cafe</title>
     <link rel="stylesheet" href="./assets/style/stylesheet.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./assets/style/responsive.css">
     
 </head>
 <body>
     <div class="container">
         <header>
+            <a class="menu-icon"><img src="./assets/img/menu-icon.png"></a>
             <ul class="right-header">
                 <li><a href="#"><img src="./assets/img/twitter.png"></a></li>
                 <li><a href="#"><img src="./assets/img/FACEBOOK.png"></a></li>
                 <li><a href="#"><img src="./assets/img/instagram.png"></a></li>   
                 <li><a href="#"class="news">NEWS</a></li> 
-            </ul>   
-            <div class="top-logo">
-                <p class="minato">MINATO</p>
-                <p class="cafe"><span class="open"><img src="./assets/img/open-logo.png"alt="open."></span>CAFE</p>
+            </ul>
+                <div class="top-logo">
+                <img src="./assets/img/top-logo.png"alt="minato open. cafe">
             </div>
+            <div class="top-logo2">
+                <img src="./assets/img/top-logo2.png"alt="minato open. cafe">
+            </div>
+             
         </header>   
     </div>
     <div class="container">
         <div class="top-wrapper">
+            <img src="./assets/img/camome.png"class="camome-img1">
+            <img src="./assets/img/camome.png"class="camome-img2">
             <img src="./assets/img/main.png"class="main-img">
             <div class="border-box">
                 <p><span class="umi">海</span>を眺める
                 <br><span class="sei">静</span>かな<span class="cafe-text">カフェ</span>が<br>
-                    <span class="open-text">オープン</span>しました。</p>
-                    
-                
+                    <span class="open-text">オープン</span>しました。</p>  
             </div>
             <ul class="menu-wrapper">
                 <li class="menu"><a href="#mainmenu-wrapper"class="menu-a">Menu</a></li>
@@ -38,29 +43,29 @@
                 <li class="access"><a href="#access-wrapper"class="access-a">Access</a></li>
             </ul> 
             
-            <img src="./assets/img/camome.png"class="camome-img1">
-            <img src="./assets/img/camome.png"class="camome-img2">
+            
         </div>
     </div>
     <div class="container">
         <div id="mainmenu-wrapper">
             <p class="menu-logo">Menu</p>
-            <uL class="menu-list">
-                <li><a href="#"><img src="./assets/img/morning.png"class="morning-img"></a>
-                    <img src="./assets/img/morning-logo.png" class="morning"alt="morning">
-                </li>
-                <li><a href="#"><img src="./assets/img/lunch.png"class="lunch-img"></a>
-                    <img src="./assets/img/lunch-logo.png" class="lunch"alt="lunch">
-                </li>
-                <li><a href="#"><img src="./assets/img/dinner.png"class="dinner-img"></a>
-                    <img src="./assets/img/dinner-logo.png" class="dinner"alt="dinner">
-                </li> 
-            </uL>
-            <ul class="price-wrapper">
-                <li><p>￥800~</p></li>
-                <li><p>￥1200~</p></li>
-                <li><p>￥1200~</p></li>
-            </ul>
+            <div class="menu-list">
+                <uL class="menu-list1">
+                    <li><a href="#"><img src="./assets/img/morning.png"class="morning-img"></a></li>
+                    <li><img src="./assets/img/morning-logo.png" class="morning"alt="morning"></li>
+                    <li class="morning-price">￥800~</li>
+                </uL>
+                <ul class="menu-list2">
+                    <li><a href="#"><img src="./assets/img/lunch.png"class="lunch-img"></a></li>
+                    <li><img src="./assets/img/lunch-logo.png" class="lunch"alt="lunch"></li>
+                    <li class="lunch-price">￥1200~</li>
+                </ul>
+                <ul class="menu-list3">
+                    <li><a href="#"><img src="./assets/img/dinner.png"class="dinner-img"></a></li> 
+                    <li><img src="./assets/img/dinner-logo.png" class="dinner"alt="dinner"></li>
+                    <li class="dinner-price">￥1200~</li>
+                </uL>
+            </div>    
         </div>
     </div>
     <div class="container">
@@ -74,13 +79,13 @@
             </ul> 
                  <a href="#" class="DL">初回ダウンロードでコーヒー<span><img src="./assets/img/off.png" class="off"></span>off</a>
         </div>
-    </div>        
+    </div>
     <div class="container">
         <div id="access-wrapper">
             <p class="access-logo">Access</p>
-            <div class="background-box">
+            <div class="access-background">
                 <div class="map">
-                    <img src="./assets/img/map.png"width="633"height="396">
+                    <img src="./assets/img/map.png"class="map-img">
                 
                      <ul class="map-list">
                         <li class="time"><span><img src="./assets/img/time.png"></span> 営業時間10：00～21：00 年中無休</li>
@@ -88,8 +93,7 @@
                         <li class="access-map2">神奈川県港区みなと〇-〇-〇</li>
                         <li class="tell"><span><img src="./assets/img/tell.png"></span> 〇〇〇〇-〇〇〇-〇〇〇</li>
                         <li><a href="#"class="mail"><span><img src="./assets/img/mail.png"></span> お問い合わせ</a></li> 
-                        <li><p class="minato-logo">MINATO</p></li>
-                        <li><p class="cafe-logo"><span><img src="./assets/img/open-logo.png"class="open-logo"alt="open."></span>CAFE</p></li>
+                        
                     </ul>
                 </div>
             </div>    
@@ -97,6 +101,7 @@
     </div>
     <div class="container">
         <footer>
+            <img src="./assets/img/top-logo2.png"class="under-logo">
             <ul class="sns-wrapper">
                 <li><a href="#" class="twitter2"><img src="./assets/img/twitter2.png"></a></li>
                 <li><a href="#" class="facebook2"><img src="./assets/img/facebook2.png"></a></li>
@@ -105,7 +110,5 @@
         </footer>
 
     </div>
-
-
 </body>
 </html>
