@@ -13,7 +13,7 @@
 
 /* ヘッダーレイアウト */
 header{
-    height:120px;
+    height:200px;
     width:100%;
     color:white;
     display:flex;
@@ -532,19 +532,20 @@ header{
 /* フッター */
 footer{
     width:100%;
-    height:50px;
+    height:180px;
 }
 
 .under-logo{
     float:right;
     padding-bottom: 20px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 .sns-wrapper{
     list-style: none;
     display:flex;
     flex-direction: row;
+    padding-top:80px;
 }
 
 
