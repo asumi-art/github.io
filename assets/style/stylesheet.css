@@ -4,13 +4,15 @@
 }
 
 .container{
-    width:1170px;
+    max-width:1170px;
     margin:0 auto;
     box-sizing: border-box;
 }
 
+
+/* ヘッダーレイアウト */
 header{
-    height:180px;
+    height:120px;
     width:100%;
     color:white;
     display:flex;
@@ -22,17 +24,29 @@ header{
 
 }
 
+.menu-icon{
+    display:none;
+    float:right;
+    padding:20px 20px;
+
+}
+
+.menu-icon img{
+    width:30px;
+    height:30px;
+    
+}
+
 .right-header{
-    width:400px;
-    padding:5px 50px 40px 0;
     display:flex;
     align-items:center;
     flex-direction:row-reverse;
+    padding-right: 50px;
 }
 
 .right-header li{
     list-style: none;
-    padding:50px 20px;
+    padding:20px 20px;
     
 }
 
@@ -50,39 +64,21 @@ header{
     letter-spacing: 0.2em;
 }
 
-.top-logo{
-    justify-content:center;  
+
+
+.top-logo{ 
     box-sizing: border-box;
-    background-color:#60b3da71;
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-right:80px;
-}
-
-.minato{
+    padding-top:20px;
+    padding-right:50px;
+    padding-left:20px;
     
-    font-family: Acier BAT Text Outline;
-    font-size:40px;
-    line-height:0.5;
-    padding-left:100px;
 }
 
-.cafe{
-    font-size:60px; 
-    font-family:Times New Roman;
-    line-height:0.1;
-    padding-left:10px;
-
+.top-logo2{
+    display:none;
 }
 
-.open{
-    padding-left: 50px;
-    padding-right:10px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
+/* トップのデザイン */
 .top-wrapper{
     width:100%;
     height:1000px;
@@ -123,6 +119,8 @@ header{
 
 }
 
+
+
 .border-box{
     width:280px;
     height:450px;
@@ -136,7 +134,7 @@ header{
 .border-box p{
     font-size:20px;
     writing-mode:vertical-rl;
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    font-family:Yu Mincho;
     margin-right:auto;
     margin-left:auto;
     margin-top:70px;
@@ -264,7 +262,7 @@ header{
   }
 
 
-
+/* メニュー */
 .mainmenu-wrapper{
     box-sizing: border-box;
     width:100%;
@@ -284,23 +282,24 @@ header{
 
 .menu-list{
     display:flex;
-    list-style: none;
+    justify-content: space-around;
     text-align: center;
-    justify-content: space-around;
 }
 
-.menu-list li{
-    align-items: center;
-    
-}
-
-.title-wrapper{
+.menu-list1{
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 150px;
 }
 
+.menu-list2{
+    list-style: none;
+}
 
+.menu-list3{
+    list-style: none;
+}
 
 
 .morning-img{
@@ -353,19 +352,28 @@ header{
     padding-right:30px;
 }
 
-.price-wrapper{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.morning-price{
     font-size: 20px;
     font-family:Times New Roman;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top:30px;
 }
 
+.lunch-price{
+    font-size: 20px;
+    font-family:Times New Roman;
+    padding-top:50px;
+}
+
+.dinner-price{
+    font-size: 20px;
+    font-family:Times New Roman;
+    padding-top:80px;
+}
+
+/* アプリの紹介　*/
 .app{
     font-size: 30px;
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    font-family:Yu Mincho;
     color:#0C0C3F;
     letter-spacing: 0.1em;
     text-align: center;
@@ -382,7 +390,7 @@ header{
 
 .DL{
     font-size:15px;
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    font-family:Yu Mincho;
     letter-spacing: 0.2em;
     width:400px;
     height:50px;
@@ -412,7 +420,7 @@ header{
 .curpon{
     font-size: 15px;
     padding-top:80px;
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    font-family: Yu Mincho;
     line-height:3;
     letter-spacing: 0.2em;
 }
@@ -424,15 +432,11 @@ header{
     height:220px;
 }
 
-.background-box{
-    width:100%;
-    height:450px;
-    background-color: rgb(183,166,143,0.1);
-    margin-bottom: 40px;
-}
 
+
+/* アクセス */
 .access-logo{
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    font-family:Yu Mincho;
     font-size:30px;
     color: #0C0C3F;
     text-align: center;
@@ -440,11 +444,17 @@ header{
     padding-top:10px;
 }
 
+.access-background{
+    width:100%;
+    height:450px;
+    background-color: rgb(183,166,143,0.1);
+    margin-bottom: 40px;
+}
 
 .map-list{
     list-style: none;
     padding-left:50px;
-    padding-top: 30px;
+    padding-top: 60px;
     font-family: A-OTF 中ゴシックBBB Pr6N Med;
     font-size: 13px;
     color:rgb(64,34,15);
@@ -456,8 +466,12 @@ header{
     display:flex;
 }
 
+.map-img{
+    width:633px;
+    height:396px;
+}
+
 .time{
-    padding-top:50px;
     padding-bottom:10px;
     letter-spacing: 0.2em;
 }
@@ -470,7 +484,6 @@ header{
 .access-map{
     letter-spacing: 0.2em;
     padding-top:20px;
-    padding-bottom: 20px;
 }
 
 
@@ -481,14 +494,14 @@ header{
 }
 
 .access-map2{
+    padding-top:10px;
     padding-left:20px;
-    padding-bottom: 20px;
     letter-spacing: 0.2em;
 
 }
 
 .tell{
-    padding-top:10px;
+    padding-top:20px;
 }
 
 .tell img{
@@ -502,6 +515,7 @@ header{
     padding-top:20px;
     text-decoration: none;
     color:rgb(64,34,15);
+    letter-spacing: 0.2em;
 }
 
 .mail img{
@@ -511,35 +525,19 @@ header{
 }
 
 
-.minato-logo{
-    padding-top:40px;
-    font-family:Acier BAT Text Outline ;
-    font-size:30px;
-    padding-left:200px;
-    line-height: 0.1em;
-    color:rgb(64,34,15);
-}
-
-
-.open-logo{
-    width:80px;
-    height:80px;
-    vertical-align: middle;
-    padding-left:160px;
-}
-
-.cafe-logo{
-    font-size:50px;
-    font-family:Times New Roman;
-    color:rgb(64,34,15);
-    padding-right:50px;
-}
 
 
 
+/* フッター */
 footer{
     width:100%;
     height:50px;
+}
+
+.under-logo{
+    float:right;
+    padding-bottom: 20px;
+    padding-right: 30px;
 }
 
 .sns-wrapper{
