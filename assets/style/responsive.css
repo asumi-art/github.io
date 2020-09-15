@@ -201,7 +201,7 @@ footer{
     list-style: none;
     display:flex;
     flex-direction: row;
-    padding-top:70px;
+    
 }
     
 .under-logo{
@@ -214,18 +214,21 @@ footer{
 
 .twitter2 img{
     padding-left:30px;
+    padding-top:60px;
     width:20px;
     height:20px;
 }
 
 .facebook2 img{
     padding-left:10px;
+    padding-top:60px;
     width:20px;
     height:20px;
 }
 
 .instagram2 img{
     padding-left:10px;
+    padding-top:60px;
     width:20px;
     height:20px;
 }
