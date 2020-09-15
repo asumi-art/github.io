@@ -193,8 +193,13 @@
 
 
 footer{
-    height:30px;
+    height:90px;
     background-color: rgb(183,166,143,0.1);
+}
+    
+.under-logo{
+     width:200px;
+     height:80px;
 }
 
 .twitter2 img{
