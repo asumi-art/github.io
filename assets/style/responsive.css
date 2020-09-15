@@ -198,7 +198,7 @@ footer{
 }
 
 .under-logo{
-    display:none;
+    float:left;
    
 }
 
@@ -226,5 +226,7 @@ footer{
     width:20px;
     height:20px;
 }
+    
+
 
     }
