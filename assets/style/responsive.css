@@ -193,7 +193,7 @@
 
 
 footer{
-    height:90px;
+    height:100px;
    
 }
     
@@ -201,7 +201,7 @@ footer{
     list-style: none;
     display:flex;
     flex-direction: row;
-    padding-top:40px;
+    padding-top:50px;
 }
     
 .under-logo{
@@ -209,7 +209,7 @@ footer{
     height:80px;
     padding-right: 10px;
     padding-bottom: 10px;
-    padding-top:10px;
+    padding-top:20px;
 }
 
 .twitter2 img{
