@@ -186,14 +186,14 @@
 
 .access-background{
     width:100%;
-    height:500px;
+    height:480px;
     margin-bottom:0px;
     border-bottom:0px solid #0C0C3F ;
 }
 
 
 footer{
-    height:30px;
+    height:90px;
    
 }
     
@@ -202,6 +202,7 @@ footer{
     height:80px;
     padding-right: 10px;
     padding-bottom: 10px;
+    padding-top:10px;
 }
 
 .sns-wrapper{
@@ -215,13 +216,13 @@ footer{
 }
 
 .facebook2 img{
-    padding-left:20px;
+    padding-left:10px;
     width:20px;
     height:20px;
 }
 
 .instagram2 img{
-    padding-left:20px;
+    padding-left:10px;
     width:20px;
     height:20px;
 }
