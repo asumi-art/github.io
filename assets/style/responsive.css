@@ -197,6 +197,13 @@ footer{
    
 }
     
+.sns-wrapper{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    padding-top:40px;
+}
+    
 .under-logo{
     width:200px;
     height:80px;
@@ -206,21 +213,18 @@ footer{
 }
 
 .twitter2 img{
-    padding-top:40px;
     padding-left:30px;
     width:20px;
     height:20px;
 }
 
 .facebook2 img{
-    padding-top:40px;
     padding-left:10px;
     width:20px;
     height:20px;
 }
 
 .instagram2 img{
-    padding-top:40px;
     padding-left:10px;
     width:20px;
     height:20px;
