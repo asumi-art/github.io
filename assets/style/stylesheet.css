@@ -13,7 +13,7 @@
 
 /* ヘッダーレイアウト */
 header{
-    height:200px;
+    height:180px;
     width:100%;
     color:white;
     display:flex;
@@ -90,6 +90,7 @@ header{
     margin-bottom:150px;
     background-color:rgb(183,166,143,0.1);
     box-sizing: border-box;
+    border-top:30px solid #0C0C3F ;
 }
 
 
@@ -448,6 +449,7 @@ header{
     height:450px;
     background-color: rgb(183,166,143,0.1);
     margin-bottom: 40px;
+    border-bottom:30px solid #0C0C3F ;
 }
 
 .map-list{
