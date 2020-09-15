@@ -210,25 +210,23 @@ footer{
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top:20px;
+    vertical-align:bottom;
 }
 
 .twitter2 img{
     padding-left:30px;
-    padding-top:60px;
     width:20px;
     height:20px;
 }
 
 .facebook2 img{
     padding-left:10px;
-    padding-top:60px;
     width:20px;
     height:20px;
 }
 
 .instagram2 img{
     padding-left:10px;
-    padding-top:60px;
     width:20px;
     height:20px;
 }
